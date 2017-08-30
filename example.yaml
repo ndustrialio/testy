@@ -1,0 +1,16 @@
+services:
+  - name: cassandra
+    version: latest
+    ports:
+      - 9042
+      - 9160
+  - name: postgres
+    version: 9.6.0
+    ports:
+      - 5432
+
+  - name: redis
+    version: latest
+    ports:
+      - 6739
+
